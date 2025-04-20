@@ -37,8 +37,30 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://i.ibb.co/rdZC7LZ/Photo-logo-1.png">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegUUBOgagwjsPQMNPDAN_3iRVThIOm3EECQ&s">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
 '''
+styl = f"""
+<style>
+    .stTextInput {{
+        position: fixed;
+        bottom: 10%;  /* Moved up from the bottom */
+        left: 0;
+        right: 0;
+        padding: 0 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+    }}
+    .stTextInput > div {{
+        width: 70%;  /* Decreased width */
+        max-width: 800px;
+    }}
+    .stTextInput input {{
+        height: 50px;  /* Increased height */
+        font-size: 16px;  /* Optional: adjust font size */
+    }}
+</style>
+"""
