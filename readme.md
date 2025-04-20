@@ -1,6 +1,8 @@
 # MultiPDF Chat App
 
 > This project is cloned from [Ask Multiple PDFs](https://github.com/alejandro-ao/ask-multiple-pdfs) and enhanced to support PDFs with images for question and answer tasks. Future improvements include refining HTML styling for better readability and adding functionality for Excel and Word files. Entrepreneurship sample files will also be uploaded to this repository for demonstration purposes.
+Current version: 1.2
+
 ### Updates
 - In version 1.2 Excel files can also be uploaded for Q&A and visual is better with changes in HTML.
 - In the future some files can be uploaded by default.
